@@ -1,24 +1,21 @@
 # Solvable-Quintic-Equation-in-Manim
+[Solvable Quintics.docx](https://github.com/user-attachments/files/25331070/Solvable.Quintics.docx)
 
-Title: Algebraic Computation of Quintic Equations or Computation of Quintic Equations and Galois Solvability
-
-
-Overview: A project exploring the boundary of Galois Theory and computational logic. This repository contains the derivation and implementation of algorithms to test the solvability of quintic equations.
+Title: Solvable-Quintic-Explorer
 
 
-Key Features:
-
-•	Galois Group Identification: Algorithms to identify the Galois group of a given polynomial over the rational field $\mathbb{Q}$ (e.g., distinguishing between $S_5, A_5$, or solvable subgroups).
-
-•	Abel-Ruffini Theorem Verification: Computational proofs regarding the impossibility of general radical solutions for quintic equations.
-
-•	Symmetric Group Mapping: Logic models representing the permutations of $S_5$ and its normal subgroups.
+Subtitle: Independent Computational Algebra Research
 
 
-Implementation
+Core Objective:
 
-•	Numerical approximation of roots using Python
+To develop a computational framework that identifies and solves solvable quintic equations. While the Abel-Ruffini Theorem proves a general formula is impossible, this project focuses on implementing algorithms to find radical solutions for specific quintic classes by analyzing their underlying algebraic symmetries.
 
-•	Logical mapping of radical extension fields.
 
-Why it matters: Demonstrates the ability to translate high-level abstract algebra into executable code.
+Technical Focus:
+
+Root Finding for Solvable Cases: Implementing methods to extract roots when the equation's Galois group permits.
+
+Symmetry Analysis: Distinguishing between solvable and non-solvable structures.
+
+Numerical Verification: Using his custom Complex class to verify the precision of the results.
