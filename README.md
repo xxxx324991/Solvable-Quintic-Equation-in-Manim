@@ -1,33 +1,39 @@
-# Solvable-Quintic-Equation-in-Manim
+# Solvable-Quintic-Pathfinder
 
-Title: Solvable-Quintic-Explorer
+Solvable Quintic Path-Finder (2022 | Age 18)
 
-
-Subtitle: Independent Computational Algebra Research
-
-
-Core Objective:
-
-To develop a computational framework that identifies and solves solvable quintic equations. While the Abel-Ruffini Theorem proves a general formula is impossible, this project focuses on implementing algorithms to find radical solutions for specific quintic classes by analyzing their underlying algebraic symmetries.
+A computational roadmap to navigate and identify the hidden solvable structures of quintic equations.
 
 
-Technical Focus:
+🎯 Project Scope
 
-Root Finding for Solvable Cases: Implementing methods to extract roots when the equation's Galois group permits.
+This project is about the logic of discovery. Instead of relying on standard library solvers, I developed a systematic way to find the underlying algebraic path that makes a quintic equation solvable.
 
-Symmetry Analysis: Distinguishing between solvable and non-solvable structures.
-
-Numerical Verification: Using his custom Complex class to verify the precision of the results.
+The goal was to prove that by "feeling" the symmetry of the field extensions, one can accurately navigate from a set of coefficients to the roots, bypassing the "unsolvable" chaos of general fifth-degree polynomials.
 
 
-Original Document: [Solvable Quintics.docx](https://github.com/user-attachments/files/25331070/Solvable.Quintics.docx)
+🔍 The Finding Sequence
+
+The heart of this project is the logical sequence used to "detect" the solvable path. Through experimentation in Mathematica, I identified these critical stages:
+
+  1. Symmetry Identification: Scanning and isolating quartic subfields to locate the $C_5$ (cyclic) structure hidden within the equation.
+
+  2. Structural Mapping: Pinpointing the core algebraic elements that define the backbone of the solution.
+
+  3. Logic Validation: Applying this "Finding" roadmap to 50+ independent cases that I discovered and verified during this research.
+
+
+🧠 The 18-Year-Old’s Intuition
+
+I built this at age 18 by treating algebraic structures like a puzzle. I didn't have the formal textbook vocabulary (like Kummer Theory) at the time, but I realized that solvable equations possessed a "numerical harmony" in their subfields.
+
+This repository is a record of that intuitive search process—proving that complex mathematical barriers can be navigated through pure logical persistence and computational experimentation.
 
 
 Example Solvable Quintic Equations:
 
 x^5+6x^4-26x^3-11x^2+54x+17=0
 
-2x^5+91x^4+793x^3-6191x^2-80171x-162268=0
+x^5+8x^4+4x^3-47x^2+30x-4=0
 
-
-Successfully identified and solved 50+ specific quintic cases where the Galois group is solvable, verified through computational symmetry analysis."
+x^5+6x^4+6x^3-11x^2-8x+1=0
