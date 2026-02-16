@@ -1,5 +1,4 @@
 # Solvable-Quintic-Equation-in-Manim
-[Solvable Quintics.docx](https://github.com/user-attachments/files/25331070/Solvable.Quintics.docx)
 
 Title: Solvable-Quintic-Explorer
 
@@ -19,3 +18,6 @@ Root Finding for Solvable Cases: Implementing methods to extract roots when the 
 Symmetry Analysis: Distinguishing between solvable and non-solvable structures.
 
 Numerical Verification: Using his custom Complex class to verify the precision of the results.
+
+
+Original Document: [Solvable Quintics.docx](https://github.com/user-attachments/files/25331070/Solvable.Quintics.docx)
