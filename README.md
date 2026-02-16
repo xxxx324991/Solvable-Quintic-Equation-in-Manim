@@ -21,3 +21,11 @@ Numerical Verification: Using his custom Complex class to verify the precision o
 
 
 Original Document: [Solvable Quintics.docx](https://github.com/user-attachments/files/25331070/Solvable.Quintics.docx)
+
+
+Example Solvable Quintic Equations:
+$x^5+6x^4-26x^3-11x^2+54x+17=0$
+$2x^5+91x^4+793x^3-6191x^2-80171x-162268=0$
+
+
+Successfully identified and solved 50+ specific quintic cases where the Galois group is solvable, verified through computational symmetry analysis."
